@@ -1,0 +1,142 @@
+/* .main {
+    background-color: lightgrey;
+
+} */
+
+.hed {
+    
+    color: rgb(68, 120, 198);
+    margin-left: 250px;
+    font-size: 100px;
+}
+.hed1 {
+    
+    
+    margin-left: 250px;
+    font-size: 25px;
+}
+
+/* h1.main1 {
+    float: left;
+} */
+
+.main1 {
+    background-color: lightgrey;
+
+    /* background-color: lightgrey; */
+    width: 1350px;
+    height: 800px;
+    
+    /* padding-left: 700px; */
+    /* padding-top: 100px;  */
+}
+
+.form {
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    margin-left: 700px;
+    /* margin-top: 100px; */
+}
+
+.box {
+    padding: 16px;
+}
+
+.em {
+    padding: 5px;
+    font-size: large;
+    width: 355px;
+    height: 50px;
+}
+
+.butt {
+    background-color: rgb(68, 120, 198);
+    padding: 5px;
+    font-size: large;
+    width: 370px;
+    height: 50px;
+}
+
+.butt1 {
+    background-color: green;
+    padding: 5px;
+    font-size: large;
+    width: 200px;
+    height: 50px;
+}
+
+.cr {
+    padding-left: 80px;
+}
+
+#footer_wrapper
+{
+ width:100%;
+ clear:both;
+ float:left;
+ margin-top:30px;
+ min-width:995px;
+ background-color:white;
+ text-align:left;
+}
+#footer1
+{
+ width:980px;
+ margin:0px auto;
+ padding:0px;
+ border-bottom:1px solid #E6E6E6;
+ height:30px;
+ line-height:30px;
+ font-size:12px;
+ color:#848484;
+}
+#footer1 a
+{
+ color:#365899;
+ display:inline;
+ margin-left:10px;
+ text-decoration:none;
+}
+#footer1 a:hover
+{
+ text-decoration:underline;
+}
+#footer2
+{
+ width:980px;
+ margin:0px auto;
+ padding:0px;
+ font-size:12px;
+ color:#848484;
+}
+#footer2 a
+{
+ color:#365899;
+ display:inline-block;
+ margin:5px;
+ margin-left:0px;
+ min-width:80px;
+ text-decoration:none;
+}
+#footer2 a:hover
+{
+ text-decoration:underline;
+}
+
+.left, .right {
+    float: left;
+    width: 20%; /* The width is 20%, by default */
+  }
+  
+  .main {
+    float: left;
+    width: 60%; /* The width is 60%, by default */
+  }
+  
+  /* Use a media query to add a breakpoint at 800px: */
+  @media screen and (max-width: 1350px) {
+    .main1, .hed, .hed1, .box, .butt, .butt1, .cr, .em, .form, .left, .right {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
